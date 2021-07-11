@@ -1,0 +1,84 @@
+{
+    "list": [
+        {
+            "title": "Pelicula 1",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://www.humonegro.com/wp-content/GEMINI-MAN-FRONTAL-560x600.png"
+        },
+        {
+            "title": "Pelicula 2",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://i.pinimg.com/474x/4a/a7/09/4aa709fb827464c325ee3c63f07b8a6c.jpg"
+        },
+        {
+            "title": "Pelicula 3",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://pbs.twimg.com/media/Dz7ZQcBWsAAu4lq.jpg"
+        },
+        {
+            "title": "Pelicula 4",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://www.laguiadelvaron.com/wp-content/uploads/2019/07/portadas-pel%C3%ADculas-iguales-www.laguiadelvaron-16.jpg"
+        },
+        {
+            "title": "Pelicula 5",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://i.pinimg.com/originals/b4/cc/bf/b4ccbf5d4bb8f3ef4d2242bd11e67a52.jpg"
+        },
+        {
+            "title": "Pelicula 6",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://i.pinimg.com/236x/39/d1/01/39d101063c4e217323df91b0551175af.jpg"
+        },
+        {
+            "title": "Pelicula 7",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/a/aladdin-_pelicula.jpg"
+        },
+        {
+            "title": "Pelicula 8",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://images.cdn3.buscalibre.com/fit-in/360x360/ef/e1/efe107f049754f01a60fe3e6033ef4d6.jpg"
+        },
+        {
+            "title": "Pelicula 9",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "http://www.iralcine.com/wp-content/uploads/pelicula-vengadores-endgame.jpg"
+        },
+        {
+            "title": "Pelicula 10",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/poster-peliculas-terror-2019-prodigy-1578395572.jpg?crop=1xw:1xh;center,top&resize=480:*"
+        },
+        {
+            "title": "Pelicula 11",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://www.ecartelera.com/carteles/12500/12526/025_p.jpg"
+        },
+        {
+            "title": "Pelicula 12",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://ep00.epimg.net/elpais/imagenes/2020/02/06/album/1580999639_454991_1581004466_album_normal.jpg"
+        },
+        {
+            "title": "Pelicula 13",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://elnueve-compress.s3-accelerate.amazonaws.com/files/1518185559236Las-horas-mas-oscuras-%20avant%20premiere.jpg"
+        },
+        {
+            "title": "Pelicula 14",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://www.cineycine.com/archivos/2018/01/star-wars-los-ultimos-jedi-portada.jpg"
+        },
+        {
+            "title": "Pelicula 15",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMudv5ZbmU5uCrxUPitA0KJl-TNCHuz06ASw&usqp=CAU"
+        },
+        {
+            "title": "Pelicula 16",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+            "img": "http://www.iralcine.com/wp-content/uploads/pelicula-venganza-bajo-cero.jpg"
+        }
+    ]
+}
