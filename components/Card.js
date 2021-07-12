@@ -10,8 +10,9 @@ const Card = (props) => {
   const [rippleOverflow, setRippleOverflow] = useState(false);
   return (
     <TouchableNativeFeedback onPress={() => {
-      setRippleColor(randomHexColor());
-      setRippleOverflow(!rippleOverflow);
+      /* setRippleColor(randomHexColor());
+      setRippleOverflow(!rippleOverflow); */
+      console.log(props.propierties.navigation.navigate('Details'));
     }}>
       
       <View style={styles.touchable}>

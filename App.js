@@ -1,20 +1,21 @@
-/* import { StatusBar } from 'expo-status-bar'; */
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-/* import { createStackNavigator } from '@react-navigation/stack'; */
+import { NavigationContainer, StackRouter } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-/* const Stack = createStackNavigator(); */
+const Stack = createStackNavigator();
 const Tab = createMaterialBottomTabNavigator();
 
 import Search from './screens/Search';
 import Home from './screens/Home';
 import Profile from './screens/Profile';
+import Details from './screens/Details';
+import VideoPlayerView from './components/VideoPlayerView';
 
-function MyTabs () {
-  return(
+function MainScreens() {
+  return (
     <Tab.Navigator
       initialRouteName = "Home"
       activeColor = "#f0edf6"
@@ -59,10 +60,39 @@ function MyTabs () {
   )
 }
 
+
+
+function MyStack () {
+  return(
+    <Stack.Navigator 
+      initialRouteName = "MainScreens"
+      headerMode = 'none'
+    > 
+      <Stack.Screen 
+        name = "MainScreens"
+        component = { MainScreens }
+        options = {{ title:"MainScreens" }}
+      />
+
+      <Stack.Screen 
+        name = "Details"
+        component = { Details }
+        options = {{ title:"details" }}
+      /> 
+
+      <Stack.Screen 
+        name = "VideoPlayerView"
+        component = { VideoPlayerView }
+        options = {{ title:"videoPlayerView" }}
+      /> 
+    </Stack.Navigator>
+  )
+}
+
 export default function App() {
   return (
     <NavigationContainer>
-      <MyTabs/>
+      <MyStack/>
     </NavigationContainer>
   )
 }
