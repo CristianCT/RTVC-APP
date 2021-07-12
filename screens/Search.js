@@ -5,10 +5,10 @@ import Registros from '../RegistrosPrueba.json';
 
 import Card from '../components/Card';
 
-export default function Search() {
+export default function Search(props) {
 
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <View style={styles.headerSearch}>
         <View>
           <Image style={styles.logoHome} source={{ uri: "https://rtvcplay-v2.s3.amazonaws.com/s3fs-public/inline-images/RTVCPlay-2_4.png" }} resizeMode="cover" />
@@ -20,7 +20,7 @@ export default function Search() {
           { 
             Registros.list.map((audiovisual, x ) => {
               return(
-                <Card audiovisual={ audiovisual } key={ x } />
+                <Card audiovisual={ audiovisual } propierties={ props } key={ x } />
               );
             }) 
           }
@@ -37,8 +37,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flexWrap: 'wrap',
     flexDirection: 'row',
-    paddingTop: 10,
-    marginBottom: 100
+    paddingTop: 5
   },
   headerSearch: {
     backgroundColor: '#264454',

@@ -5,9 +5,9 @@ import Registros from '../RegistrosPrueba.json';
 
 import Card from '../components/Card';
 
-export default function Home() {
+export default function Home(props) {
     return (
-        <View>
+        <View style={{ flex: 1 }}>
             <View style={styles.headerHome}>
                 <Image style={styles.logoHome} source={{ uri: "https://rtvcplay-v2.s3.amazonaws.com/s3fs-public/inline-images/RTVCPlay-2_4.png" }} resizeMode="cover" />
             </View> 
@@ -19,9 +19,9 @@ export default function Home() {
                     <Text style={ styles.TextSubTitles }>Recomendados</Text>
                     <View style={ styles.listRegister }>
                         { 
-                            Registros.list.map((audiovisuale, x ) => {
+                            Registros.list.map((audiovisual, x ) => {
                                 return(
-                                    <Card audiovisual={ audiovisuale } key={ x } />
+                                    <Card audiovisual={ audiovisual } propierties={ props } key={ x } />
                                 );
                             }) 
                         }
@@ -37,8 +37,7 @@ const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
         justifyContent: 'center',
-        paddingTop: 5,
-        marginBottom: 100
+        paddingTop: 5
     },
     cover: {
         width: 370,
